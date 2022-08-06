@@ -4,6 +4,6 @@ if ! head -1 "$1" | grep -qE "^(feat|fix|ci|chore|docs|test|style|refactor|perf|
     exit 1
 fi
 if ! head -1 "$1" | grep -qE "^.{1,88}$"; then
-    printf "\n\e[0;31mCommit abortado. A\e[1;34m MENSAGEM \e[0m\e[0;31mdo seu commit está muito longa \e[0m\e[1;34m(mais de 88 caracteres). \e[0m\n" >&2
+    printf "\n\e[0;31mCommit abortado. A\e[1;34m MENSAGEM \e[0m\e[0;31mdo seu commit está muito longa \e[0m\e[1;34m(mais de 88 caracteres). \e[0m\n\n" >&2
     exit 1
 fi
