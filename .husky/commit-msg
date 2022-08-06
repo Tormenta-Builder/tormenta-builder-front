@@ -1,6 +1,7 @@
 #!/usr/bin/env sh
 if ! head -1 "$1" | grep -qE "^(feat|fix|ci|chore|docs|test|style|refactor|perf|build|revert)(\(.+?\))?: .{1,}$"; then
     echo "Commit abortado. A tag do seu commit está inválida." >&2
+    exit 1
 fi
 if ! head -1 "$1" | grep -qE "^.{1,88}$"; then
     echo "Commit abortado. A mensagem do seu commit está muito longa (mais de 88 caracteres)."
