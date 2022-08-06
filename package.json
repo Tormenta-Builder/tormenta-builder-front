@@ -64,7 +64,7 @@
             "title": "Bug Fixes",
             "emoji": "🐛"
         },
-        "wip": {
+        "WIP": {
             "description": "Working in Progress",
             "title": "WIP",
             "emoji": "🚧"
@@ -85,9 +85,9 @@
             "emoji": "💎"
         },
         "refactor": {
-            "description": "Refactor code",
+            "description": "A code change that neither fixes a bug nor adds a feature",
             "title": "Code Refactoring",
-            "emoji": "♻️"
+            "emoji": "🔨"
         },
         "dependency": {
             "description": "Add a dependency.",
@@ -112,7 +112,7 @@
         "build": {
             "description": "Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)",
             "title": "Builds",
-            "emoji": "🏗️"
+            "emoji": "🔨"
         },
         "ci": {
             "description": "Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)",
