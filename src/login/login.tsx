@@ -11,7 +11,7 @@ const Login: React.FC = () => {
 
     return (
     <div>
-        <p>Login 5</p>
+        <p>Login</p>
         <button onClick={handleSheet}> Ir para a ficha </button>
     </div>
   );
