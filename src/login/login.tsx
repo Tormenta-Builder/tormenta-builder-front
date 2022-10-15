@@ -12,7 +12,7 @@ const Login: React.FC = () => {
     return (
     <div>
         <p>Login</p>
-        <button onClick={handleSheet}> Ir para a ficha </button>
+        <button onClick={handleSheet}> Ir para a fichaa </button>
     </div>
   );
 }
